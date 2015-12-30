@@ -1,0 +1,38 @@
+{
+  "name": "gulp-html-beautify",
+  "version": "1.0.0",
+  "description": "This is a gulp plugin to beautify HTML files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://arsenghazaryan@github.com/arsenghazaryan/gulp-html-beautify.git"
+  },
+  "keywords": [
+    "gulp",
+    "html",
+    "beautify",
+    "prettify"
+  ],
+  "author": {
+    "email": "arsen.ghazaryan@gmail.com",
+    "name": "Arsen"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arsenghazaryan/gulp-html-beautify/issues"
+  },
+  "homepage": "https://github.com/arsenghazaryan/gulp-html-beautify#readme",
+  "dependencies": {
+    "js-beautify": "^1.5.10",
+    "rcloader": "^0.1.4",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp-util": "^3.0.7",
+    "mocha": "^2.3.4",
+    "should": "^8.0.2"
+  }
+}

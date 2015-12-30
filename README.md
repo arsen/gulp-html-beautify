@@ -1,5 +1,5 @@
 # Information
-This is a gulp plugin for js-beautify.
+This is a gulp plugin to beautify HTML files.
 
 # Usage
 ```javascript
