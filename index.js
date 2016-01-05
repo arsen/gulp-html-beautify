@@ -6,8 +6,8 @@ module.exports = function(opts) {
   var rcLoader = new RcLoader('.jsbeautifyrc', opts, { loader: 'async' });
 
   function modifyFile(file, enc, cb) {
-    if (file.isNull()) return cb(null, file); // pass along
-    if (file.isStream()) return cb(new Error('gulp-beautify: Streaming not supported'));
+    if (file.isNull()) return cb(null, file);
+    if (file.isStream()) return cb(new Error('gulp-html-beautify: Streaming not supported'));
     rcLoader.for(file.path, function (err, opts) {
       if (err) return cb(err);
 

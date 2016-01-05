@@ -9,7 +9,7 @@ gulp.task('htmlbeautify', function() {
   var options = {
     {indentSize: 2}
   };
-  gulp.src('./src/*.js')
+  gulp.src('./src/*.html')
     .pipe(htmlbeautify(options))
     .pipe(gulp.dest('./public/'))
 });
@@ -17,7 +17,7 @@ gulp.task('htmlbeautify', function() {
 
 # Options
 Plugin options:
-- `use_rc`
+- `useConfig`
   - Default is `true`
   - When `false` do not lookup `.jsbeautifyrc` files, which are JSON encoded configuration files for [js-beautify](https://github.com/beautify-web/js-beautify#options).
 
