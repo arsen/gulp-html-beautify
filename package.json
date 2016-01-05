@@ -1,6 +1,6 @@
 {
   "name": "gulp-html-beautify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a gulp plugin to beautify HTML files.",
   "main": "index.js",
   "scripts": {
